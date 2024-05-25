@@ -27,7 +27,6 @@ const Footer = () => {
           Resources
         </a>
       </div>
-
       <div className="flex flex-col items-center text-center justify-between gap-4">
         <h1 className="font-bold text-lg">Support</h1>
         <a href="/" className="font-semibold">
