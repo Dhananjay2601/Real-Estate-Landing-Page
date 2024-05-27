@@ -1,5 +1,5 @@
 import React from "react";
-import { UserIcon, SearchIcon } from "../icons/SvgIcons";
+import { BurgerIcon, UserIcon, SearchIcon } from "../icons/SvgIcons";
 
 const Navbar = () => {
   return (
@@ -39,28 +39,41 @@ const Navbar = () => {
 
       {/* DRAWER  */}
 
-      <div className="drawer fixed top-0 z-50 sm:block md:hidden">
+      <div className="drawer drawer-end fixed top-0 z-50 sm:block md:hidden bg-primary p-4">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
+        <div className="drawer-content flex justify-end">
           {/* <!-- Page content here --> */}
-          <label for="my-drawer" className="btn btn-primary drawer-button">
-            Open drawer
+          <label for="my-drawer" className=" drawer-button text-quaternary ">
+            <BurgerIcon />{" "}
           </label>
         </div>
-        <div className="drawer-side">
+        <div className=" drawer-side">
           <label
             for="my-drawer"
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-            {/* <!-- Sidebar content here --> */}
+          <ul className="menu p-16 min-h-full text-quaternary font-semibold space-y-2 bg-primary ">
             <li>
-              <a>Sidebar Item 1</a>
+              <a>About Us</a>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <a>Service</a>
             </li>
+            <li>
+              <a>Agents</a>
+            </li>
+            <li>
+              <a>Contact Us</a>
+            </li>
+            <div className="absolute bottom-3 left-3 text-xs">
+              <span className="font-medium">
+                Developed By{" "}
+                <a href="/" className="underline">
+                  Vansh Technologies
+                </a>
+              </span>
+            </div>
           </ul>
         </div>
       </div>

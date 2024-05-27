@@ -55,7 +55,7 @@ const Testimonial = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-6 lg:p-14">
-      <h1 className="text-2xl text-center lg:text-3xl py-5 font-extrabold ">
+      <h1 className="text-2xl text-center text-secondary lg:text-3xl py-5 font-extrabold ">
         What People Say About Dwello
       </h1>
       <div className="flex flex-col items-center py-5">

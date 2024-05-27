@@ -5,7 +5,7 @@ import { LocationIcon, HouseIcon, MoneyIcon } from "../icons/SvgIcons";
 
 const Filter = () => {
   return (
-    <div className="absolute flex justify-center -mt-14 w-full">
+    <div className="absolute flex justify-center mt-12 md:-mt-14 w-full">
       <div className="flex flex-col md:flex-row items-center justify-around md:max-w-[40rem] lg:max-w-[50rem] h-auto md:h-[120px] p-5 rounded-2xl bg-ternary text-secondary shadow-lg">
         <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto">
           {/* Input 1 */}

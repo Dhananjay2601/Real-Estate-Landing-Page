@@ -3,7 +3,7 @@ import BgImage from "../utils/hero image 1.png";
 
 const Home = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row items-center justify-between text-secondary py-24 px-4 md:px-10 lg:py-24 lg:px-24 xl:py-24 xl:px-36">
+    <div className="w-full flex flex-col lg:flex-row items-center justify-between text-secondary py-16 px-4 md:px-10 lg:py-24 lg:px-24 xl:py-24 xl:px-36">
       <div className="flex flex-col w-full lg:w-1/2">
         {/* H1 Text */}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight pb-4">

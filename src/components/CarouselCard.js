@@ -30,12 +30,12 @@ const CarouselCard = ({
               />
             </div>
           </div>
-          <div className="flex flex-col ml-4">
-            <h2 className="text-lg font-semibold">{title}</h2>
-            <h3 className="text-sm text-gray-500">{location}</h3>
+          <div className="flex flex-col ml-4 font-semibold  text-secondary">
+            <h2 className="text-lg ">{title}</h2>
+            <h3 className="text-sm ">{location}</h3>
           </div>
           <div>
-            <p className="text-sm  p-2 bg-white rounded-xl font-bold">
+            <p className="text-base px-2 p-1 bg-white text-secondary rounded-md   font-bold">
               ⭐ {rating}
             </p>
           </div>

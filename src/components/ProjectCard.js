@@ -3,7 +3,7 @@ import { LocationIcon } from "../icons/SvgIcons";
 
 const ProjectCard = ({ image, location, rooms, size, price }) => {
   return (
-    <div className="w-full bg-ternary rounded-xl flex flex-col gap-4 shadow-lg">
+    <div className="w-full bg-ternary rounded-xl flex flex-col gap-4 shadow-lg text-secondary">
       <div className="bg-black flex justify-center rounded-t-xl">
         <img className="rounded-t-xl" src={image} width={300} alt="Property" />
       </div>

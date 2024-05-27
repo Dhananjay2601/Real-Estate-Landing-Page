@@ -3,7 +3,7 @@ import { InstagramIcon, FacebookIcon, TwitterIcon } from "../icons/SvgIcons";
 
 const Footer = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 p-20 gap-10  ">
+    <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 p-20 gap-10 text-secondary ">
       <div className="md:col-span-4 lg:col-span-1 flex flex-col items-center text-center lg:text-start lg:items-start">
         <h1 className="text-xl text-start lg:text-2xl font-extrabold mb-4 lg:mb-8 ">
           Dwello

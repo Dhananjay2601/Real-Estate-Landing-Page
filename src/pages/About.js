@@ -3,9 +3,9 @@ import House from "../utils/luxury_and_rich_home_exterior_side_view.png";
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-around pt-72 pb-20 px-4  md:pt-36 lg:px-16 xl:px-40 w-full  bg-white text-secondary">
+    <div className="flex flex-col lg:flex-row items-center justify-around pt-96 pb-10 px-4  md:pt-36 lg:px-16 lg:pb-16 xl:px-40 w-full  bg-white text-secondary">
       {/* Image */}
-      <div className="w-full md:w-80 lg:w-[400px] xl:w-[450px] mb-8 lg:mb-0">
+      <div className="w-full md:w-80 lg:w-[400px] xl:w-[450px] mb-12 lg:mb-0">
         <img src={House} className="w-full rounded-2xl" alt="Luxury Home" />
       </div>
 

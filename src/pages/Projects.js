@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-white py-12">
       {/* Text */}
-      <h1 className="text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-8">
+      <h1 className="text-2xl text-secondary lg:text-3xl font-extrabold mb-8 lg:mb-8">
         Our Popular Residences
       </h1>
       {/* Cards */}

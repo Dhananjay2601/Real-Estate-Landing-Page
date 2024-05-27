@@ -5,16 +5,16 @@ const Contact = () => {
     <div className="bg-white py-16 px-10 lg:p-24 w-full flex flex-col justify-center">
       {/* Text  */}
       <div className="flex flex-col justify-center items-center">
-        <h1 className="flex text-2xl lg:text-3xl font-extrabold mb-6 lg:mb-8 text-center">
+        <h1 className="flex text-2xl text-secondary lg:text-3xl font-extrabold mb-6 lg:mb-8 text-center">
           Do You Have Any Questions? <br /> Get Help From Us
         </h1>
-        <div className="flex flex-col md:flex-row text-center gap-2  md:gap-14 mb-6 lg:mb-12 text-sm  lg:text-base font-semibold text-quaternary">
-          <div className="flex gap-1">
+        <div className="flex flex-col items-center md:flex-row text-center gap-2  md:gap-14 mb-6 lg:mb-12 text-sm  lg:text-base font-semibold text-quaternary">
+          <div className="flex items-center gap-1">
             <CheckIcon />
             <p className="">Chat live with our support team</p>
           </div>
 
-          <div className="flex gap-1">
+          <div className="flex items-center gap-1">
             <CheckIcon />
             <p className="">Browse our FAQ</p>
           </div>
