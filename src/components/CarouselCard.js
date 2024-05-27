@@ -18,7 +18,7 @@ const CarouselCard = ({
       }
     >
       <figure>
-        <img src={image} alt="" className="w-full h-48 object-cover" />
+        <img src={image} alt="" className="w-full  object-cover" />
       </figure>
       <div className="card-body p-5">
         <div className="flex justify-between items-center mb-4">

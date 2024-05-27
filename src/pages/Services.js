@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="flex flex-col items-center justify-center py-12 px-4 lg:px-16 xl:px-28 w-full  bg-white text-secondary">
       {/* Test  */}
-      <div className="flex flex-col justify-center items-center w-1/2 text-center">
+      <div className="flex flex-col justify-center items-center lg:w-1/2 text-center">
         <h1 className="text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-8">
           Why Choose Us
         </h1>

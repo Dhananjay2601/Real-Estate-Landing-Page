@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import Testimonail from "./pages/Testimonial";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
+
 function App() {
   return (
     <div className="App  bg-primary w-full h-full">

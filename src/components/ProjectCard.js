@@ -1,4 +1,5 @@
 import React from "react";
+import { LocationIcon } from "../icons/SvgIcons";
 
 const ProjectCard = ({ image, location, rooms, size, price }) => {
   return (
@@ -7,7 +8,7 @@ const ProjectCard = ({ image, location, rooms, size, price }) => {
         <img className="rounded-t-xl" src={image} width={300} alt="Property" />
       </div>
       <div className="flex justify-start px-3 gap-3">
-        <img src={location.icon} alt="Location" className="w-[25px]" />
+        <LocationIcon />
         <h2 className="xl:text-base font-bold">{location.text}</h2>
       </div>
       <div className="flex justify-between ml-4 w-[80%]">

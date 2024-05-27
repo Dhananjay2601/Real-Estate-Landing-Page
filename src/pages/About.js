@@ -3,15 +3,15 @@ import House from "../utils/luxury_and_rich_home_exterior_side_view.png";
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-around pt-36 pb-20 px-4 lg:px-16 xl:px-40 w-full  bg-white text-secondary">
+    <div className="flex flex-col lg:flex-row items-center justify-around pt-72 pb-20 px-4  md:pt-36 lg:px-16 xl:px-40 w-full  bg-white text-secondary">
       {/* Image */}
       <div className="w-full md:w-80 lg:w-[400px] xl:w-[450px] mb-8 lg:mb-0">
         <img src={House} className="w-full rounded-2xl" alt="Luxury Home" />
       </div>
 
       {/* Text */}
-      <div className="flex flex-col justify-between w-full lg:w-1/2 pl-10">
-        <h1 className="text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-8">
+      <div className="flex flex-col justify-between w-full lg:w-1/2 px-6 lg:pl-10">
+        <h1 className="flex justify-center text-center lg:text-start lg:justify-start text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-8">
           We Help You To Find
           <br /> Your Dream Home
         </h1>
