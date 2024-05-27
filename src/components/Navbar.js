@@ -8,7 +8,7 @@ const Navbar = () => {
         <h1 className="xl:px-8 lg:px-6 md:px-2 font-extrabold text-2xl">
           Dwello
         </h1>
-        <div className="flex xl:gap-20 lg:gap-10 md:gap-6 font-bold ">
+        <div className="flex xl:gap-14 lg:gap-10 md:gap-6 font-bold ">
           <div className="">
             <a href="/">Home</a>
           </div>

@@ -16,7 +16,7 @@ const About = () => {
           <br /> Your Dream Home
         </h1>
 
-        <p className="text-sm lg:text-base font-semibold text-quaternary mb-6 lg:mb-12">
+        <p className="text-sm text-center lg:text-base font-semibold text-quaternary mb-6 lg:mb-12">
           From cozy cottages to luxurious estates, our dedicated team guides you
           through every step of the journey, ensuring your dream home becomes a
           reality.
