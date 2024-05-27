@@ -30,10 +30,10 @@ const About = () => {
           </p>
         </RevealY>
 
-        <div className="flex text-center lg:text-start justify-between text-quaternary">
+        <div className="flex md:px-20 lg:p-0 text-center lg:text-start justify-between text-quaternary">
           <div className="">
             <RevealY>
-              <h1 className="flex text-2xl lg:text-3xl font-bold">
+              <h1 className="flex justify-center md:justify-start text-2xl lg:text-3xl font-bold">
                 <Counter from={0} to={8} />
                 K+
               </h1>
@@ -47,7 +47,7 @@ const About = () => {
           </div>
           <div className="">
             <RevealY>
-              <h1 className="flex text-2xl lg:text-3xl font-bold">
+              <h1 className="flex justify-center md:justify-start text-2xl lg:text-3xl font-bold">
                 {" "}
                 <Counter from={0} to={6} />
                 K+
@@ -60,7 +60,7 @@ const About = () => {
           </div>
           <div className="">
             <RevealY>
-              <h1 className="flex text-2xl lg:text-3xl font-bold">
+              <h1 className="flex justify-center md:justify-start text-2xl lg:text-3xl font-bold">
                 <Counter from={0} to={2} />
                 K+
               </h1>
