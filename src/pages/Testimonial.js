@@ -4,7 +4,7 @@ import Image1 from "../utils/CardImg1.png";
 import Image2 from "../utils/CardImg2.png";
 import Image3 from "../utils/CardImg3.png";
 import { LeftIcon, RightIcon } from "../icons/SvgIcons";
-import Reveal from "../Animations/Reveal";
+import { RevealY } from "../Animations/Reveal";
 
 const data = [
   {
@@ -56,12 +56,12 @@ const Testimonial = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-6 lg:p-14">
-      <Reveal>
+      <RevealY>
         <h1 className="text-2xl text-center text-secondary lg:text-3xl py-5 font-extrabold ">
           What People Say About Dwello
         </h1>
-      </Reveal>
-      <Reveal>
+      </RevealY>
+      <RevealY>
         <div className="flex flex-col items-center py-5">
           <Carousel data={data} activeImageIndex={activeImageIndex} />
           <div className="flex font-bold py-8 gap-4 ">
@@ -79,7 +79,7 @@ const Testimonial = () => {
             </button>
           </div>
         </div>
-      </Reveal>
+      </RevealY>
     </div>
   );
 };

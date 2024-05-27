@@ -1,9 +1,11 @@
 import React from "react";
 import { BurgerIcon, UserIcon, SearchIcon } from "../icons/SvgIcons";
+import { RevealX } from "../Animations/Reveal";
 
 const Navbar = () => {
   return (
     <div className=" ">
+      {/* <RevealX> */}
       <div className="hidden  fixed top-0 z-50 md:flex justify-between items-center  w-full p-6 xl:px-14 lg:px-12 md:px-8 text-secondary bg-primary">
         <h1 className="xl:px-8 lg:px-6 md:px-2 font-extrabold text-2xl">
           Dwello
@@ -36,6 +38,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {/* </RevealX> */}
 
       {/* DRAWER  */}
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { InstagramIcon, FacebookIcon, TwitterIcon } from "../icons/SvgIcons";
-import Reveal from "../Animations/Reveal";
+import { RevealY } from "../Animations/Reveal";
 
 const Footer = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 p-20 gap-10 text-secondary ">
-      <Reveal>
+      <RevealY>
         <div className="md:col-span-4 lg:col-span-1 flex flex-col items-center text-center lg:text-start lg:items-start">
           <h1 className="text-xl text-start lg:text-2xl font-extrabold mb-4 lg:mb-8 ">
             Dwello
@@ -14,9 +14,9 @@ const Footer = () => {
             Bringing you closer to your dream home, one click at a time.
           </p>
         </div>
-      </Reveal>
+      </RevealY>
 
-      <Reveal>
+      <RevealY>
         <div className="flex flex-col  items-center ">
           <div className="flex flex-col text-center md:text-start  justify-between gap-4">
             <h1 className="font-bold text-lg">About</h1>
@@ -34,8 +34,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </Reveal>
-      <Reveal>
+      </RevealY>
+      <RevealY>
         <div className="flex flex-col items-center ">
           <div className="flex flex-col text-center md:text-start  justify-between gap-4">
             <h1 className="font-bold text-lg">Support</h1>
@@ -53,8 +53,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </Reveal>
-      <Reveal>
+      </RevealY>
+      <RevealY>
         <div className="flex flex-col items-center ">
           <div className="flex flex-col text-center md:text-start  justify-between gap-4">
             <h1 className="font-bold text-lg">Find Us</h1>
@@ -69,8 +69,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </Reveal>
-      <Reveal>
+      </RevealY>
+      <RevealY>
         <div className="flex flex-col items-center ">
           <div className="flex flex-col text-center md:text-start justify-between gap-4">
             <h1 className="font-bold text-lg">Our Social</h1>
@@ -85,7 +85,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </Reveal>
+      </RevealY>
     </div>
   );
 };

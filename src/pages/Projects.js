@@ -6,19 +6,19 @@ import Bungalow1 from "../utils/bungalow1.png";
 import Bungalow2 from "../utils/bungalow2.png";
 import Bungalow3 from "../utils/bungalow3.png";
 import ProjectCard from "../components/ProjectCard";
-import Reveal from "../Animations/Reveal";
+import { RevealY } from "../Animations/Reveal";
 
 const Projects = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-white py-12">
       {/* Text */}
-      <Reveal>
+      <RevealY>
         <h1 className="text-2xl text-secondary lg:text-3xl font-extrabold mb-8 lg:mb-8">
           Our Popular Residences
         </h1>
-      </Reveal>
+      </RevealY>
       {/* Cards */}
-      <Reveal>
+      <RevealY>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <ProjectCard
             image={Bungalow1}
@@ -42,7 +42,7 @@ const Projects = () => {
             price="$3,700,000"
           />
         </div>
-      </Reveal>
+      </RevealY>
     </div>
   );
 };

@@ -4,28 +4,29 @@ import UserIcon from "../icons/edit-info.png";
 import NotepadIcon from "../icons/note-pad.png";
 import HandshakeIcon from "../icons/deal.png";
 import ServicesCard from "../components/ServicesCard";
-import Reveal from "../Animations/Reveal";
+import { RevealY } from "../Animations/Reveal";
+
 const Services = () => {
   return (
     <div className="flex flex-col items-center justify-center py-12 px-4 lg:px-16 xl:px-28 w-full  bg-white text-secondary">
       {/* Test  */}
       <div className="flex flex-col justify-center items-center lg:w-1/2 text-center">
-        <Reveal>
+        <RevealY>
           <h1 className="text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-8">
             Why Choose Us
           </h1>
-        </Reveal>
+        </RevealY>
 
-        <Reveal>
+        <RevealY>
           <p className="text-sm lg:text-base font-semibold text-quaternary mb-6 lg:mb-12">
             Elevating Your Home Buying Experience with Expertise, Integrity, and
             Unmatched Personalized Service
           </p>
-        </Reveal>
+        </RevealY>
       </div>
       {/* Cards  */}
 
-      <Reveal>
+      <RevealY>
         <div className=" w-full p-8 gap-4 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
           <ServicesCard
             icon={LocationIcon}
@@ -51,7 +52,7 @@ const Services = () => {
             />
           </div>
         </div>
-      </Reveal>
+      </RevealY>
     </div>
   );
 };
