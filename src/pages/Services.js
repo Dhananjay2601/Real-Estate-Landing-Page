@@ -1,10 +1,10 @@
 import React from "react";
-import LocationIcon from "../icons/location.png";
-import UserIcon from "../icons/edit-info.png";
-import NotepadIcon from "../icons/note-pad.png";
-import HandshakeIcon from "../icons/deal.png";
+import LocationIcon from "../icons/pngIcons/location.png";
+import UserIcon from "../icons/pngIcons/edit-info.png";
+import NotepadIcon from "../icons/pngIcons/note-pad.png";
+import HandshakeIcon from "../icons/pngIcons/deal.png";
 import ServicesCard from "../components/ServicesCard";
-import { RevealY } from "../Animations/Reveal";
+import { RevealY } from "../animations/Reveal";
 
 const Services = () => {
   return (
@@ -26,33 +26,37 @@ const Services = () => {
       </div>
       {/* Cards  */}
 
-      <RevealY>
-        <div className=" w-full p-8 gap-4 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+      <div className=" w-full p-8 gap-4 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+        <RevealY>
           <ServicesCard
             icon={LocationIcon}
             title="Expert Guidance"
             description="Benefit from our team's seasoned expertise for a smooth buying experience"
           />
+        </RevealY>
+        <RevealY>
           <ServicesCard
             icon={UserIcon}
             title="Personalized Service"
             description="Our services adapt to your unique needs, making your journey stress-free"
           />
+        </RevealY>
+        <RevealY>
           <ServicesCard
             icon={NotepadIcon}
             title="Transparent Process"
             description="Stay informed with our clear and honest approach to buying your home"
           />
-          <div className="lg:col-start-2 xl:col-start-4 ">
-            <ServicesCard
-              className=" "
-              icon={HandshakeIcon}
-              title="Exceptional Support"
-              description="Providing peace of mind with our responsive and attentive customer service"
-            />
-          </div>
-        </div>
-      </RevealY>
+        </RevealY>
+        <RevealY>
+          <ServicesCard
+            className=" lg:col-start-2 xl:col-start-4 "
+            icon={HandshakeIcon}
+            title="Exceptional Support"
+            description="Providing peace of mind with our responsive and attentive customer service"
+          />
+        </RevealY>
+      </div>
     </div>
   );
 };

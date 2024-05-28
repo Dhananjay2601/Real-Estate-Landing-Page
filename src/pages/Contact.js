@@ -1,6 +1,7 @@
 import React from "react";
 import { MailIcon, CheckIcon } from "../icons/SvgIcons";
-import { RevealY } from "../Animations/Reveal";
+import { RevealY } from "../animations/Reveal";
+import OnHover from "../animations/OnHover";
 
 const Contact = () => {
   return (
@@ -40,9 +41,11 @@ const Contact = () => {
             />
           </label>
           {/* Sign up Button */}
-          <button className="btn md:w-[8rem]   bg-secondary text-white">
-            Sign up
-          </button>
+          <OnHover>
+            <button className="btn w-full md:w-[8rem]  hover:bg-quaternary   bg-secondary text-white">
+              Sign up
+            </button>
+          </OnHover>
         </div>
       </RevealY>
     </div>

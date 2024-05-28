@@ -9,7 +9,6 @@ const CarouselCard = ({
   index,
   rating,
 }) => {
-  console.log(activeImageIndex);
   return (
     <div
       className={

@@ -1,7 +1,7 @@
 import React from "react";
 import House from "../utils/luxury_and_rich_home_exterior_side_view.png";
-import { RevealY } from "../Animations/Reveal";
-import Counter from "../Animations/Counter";
+import { RevealY } from "../animations/Reveal";
+import Counter from "../animations/Counter";
 
 const About = () => {
   return (
