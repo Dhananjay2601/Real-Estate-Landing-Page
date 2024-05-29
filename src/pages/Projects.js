@@ -5,7 +5,7 @@ import Bungalow1 from "../utils/bungalow1.png";
 import Bungalow2 from "../utils/bungalow2.png";
 import Bungalow3 from "../utils/bungalow3.png";
 import ProjectCard from "../components/ProjectCard";
-import { RevealY } from "../animations/Reveal";
+import { RevealY } from "../animation/Reveal";
 
 const Projects = () => {
   return (

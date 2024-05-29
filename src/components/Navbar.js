@@ -1,7 +1,7 @@
 import React from "react";
 import { BurgerIcon, UserIcon, SearchIcon } from "../icons/SvgIcons";
 
-import OnHover from "../animations/OnHover";
+import OnHover from "../animation/OnHover";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ handler }) => {

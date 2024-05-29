@@ -1,7 +1,7 @@
 import React from "react";
 import { InstagramIcon, FacebookIcon, TwitterIcon } from "../icons/SvgIcons";
-import { RevealY } from "../animations/Reveal";
-import OnHover from "../animations/OnHover";
+import { RevealY } from "../animation/Reveal";
+import OnHover from "../animation/OnHover";
 import { UpArrowIcon } from "../icons/SvgIcons";
 const Footer = ({ handler }) => {
   return (

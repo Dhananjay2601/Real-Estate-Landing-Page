@@ -1,7 +1,7 @@
 import React from "react";
 import BgImage from "../utils/hero image 1.png";
-import { RevealY } from "../animations/Reveal";
-import OnHover from "../animations/OnHover";
+import { RevealY } from "../animation/Reveal";
+import OnHover from "../animation/OnHover";
 
 const Home = () => {
   return (

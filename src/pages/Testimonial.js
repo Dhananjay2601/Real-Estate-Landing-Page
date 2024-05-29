@@ -4,8 +4,8 @@ import Image1 from "../utils/CardImg1.png";
 import Image2 from "../utils/CardImg2.png";
 import Image3 from "../utils/CardImg3.png";
 import { LeftIcon, RightIcon } from "../icons/SvgIcons";
-import { RevealY } from "../animations/Reveal";
-import OnHover from "../animations/OnHover";
+import { RevealY } from "../animation/Reveal";
+import OnHover from "../animation/OnHover";
 
 const data = [
   {

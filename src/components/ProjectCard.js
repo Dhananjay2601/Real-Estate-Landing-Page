@@ -1,6 +1,6 @@
 import React from "react";
 import { LocationIcon } from "../icons/SvgIcons";
-import OnHover from "../animations/OnHover";
+import OnHover from "../animation/OnHover";
 
 const ProjectCard = ({ image, location, rooms, size, price }) => {
   return (

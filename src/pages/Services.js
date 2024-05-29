@@ -4,7 +4,7 @@ import UserIcon from "../icons/pngIcons/edit-info.png";
 import NotepadIcon from "../icons/pngIcons/note-pad.png";
 import HandshakeIcon from "../icons/pngIcons/deal.png";
 import ServicesCard from "../components/ServicesCard";
-import { RevealY } from "../animations/Reveal";
+import { RevealY } from "../animation/Reveal";
 
 const Services = () => {
   return (

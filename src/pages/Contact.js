@@ -1,7 +1,7 @@
 import React from "react";
 import { MailIcon, CheckIcon } from "../icons/SvgIcons";
-import { RevealY } from "../animations/Reveal";
-import OnHover from "../animations/OnHover";
+import { RevealY } from "../animation/Reveal";
+import OnHover from "../animation/OnHover";
 
 const Contact = () => {
   return (

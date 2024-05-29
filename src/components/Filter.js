@@ -2,8 +2,8 @@ import React from "react";
 
 import FilterInput from "./FilterInput"; // Import the new component
 import { LocationIcon, HouseIcon, MoneyIcon } from "../icons/SvgIcons";
-import { RevealY } from "../animations/Reveal";
-import OnHover from "../animations/OnHover";
+import { RevealY } from "../animation/Reveal";
+import OnHover from "../animation/OnHover";
 
 const Filter = () => {
   return (
