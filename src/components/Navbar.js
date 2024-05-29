@@ -1,6 +1,6 @@
 import React from "react";
 import { BurgerIcon, UserIcon, SearchIcon } from "../icons/SvgIcons";
-import { RevealX } from "../animations/Reveal";
+
 import OnHover from "../animations/OnHover";
 import { Link } from "react-router-dom";
 
