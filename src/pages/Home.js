@@ -5,8 +5,8 @@ import OnHover from "../animation/OnHover";
 
 const Home = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row items-center justify-between text-secondary py-16 px-4 md:px-10 md:py-28 lg:py-24 lg:px-24 xl:py-24 xl:px-36">
-      <div className="flex flex-col w-full lg:w-1/2">
+    <div className="w-full flex flex-col lg:flex-row items-center justify-between text-secondary py-24 px-4 md:px-10 md:py-28 lg:py-24 lg:px-24 xl:py-24 xl:px-36">
+      <div className="flex flex-col w-full lg:w-1/2 pb-20  md:p-0">
         {/* H1 Text */}
         <RevealY>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight pb-4">
@@ -33,7 +33,7 @@ const Home = () => {
       </div>
 
       {/* Image */}
-      <div className="w-full lg:w-1/2 xl:w-[80%] flex justify-center lg:justify-end">
+      <div className="w-full lg:w-1/2 xl:w-[80%] flex justify-center lg:justify-end pb-20 md:p-0">
         <RevealY>
           <img
             src={BgImage}
