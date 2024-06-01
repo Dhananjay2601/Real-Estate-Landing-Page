@@ -107,7 +107,7 @@ const Footer = ({ handler }) => {
       <div className="flex  justify-end p-8 lg:pr-14  w-full   ">
         <OnHover>
           <div
-            className="border-2 border-secondary rounded-full cursor-pointer p-1 hover:text-white  hover:bg-quaternary"
+            className="border-2 border-secondary rounded-full cursor-pointer p-1 text-secondary hover:text-white  hover:bg-quaternary"
             onClick={() => handler("home")}
           >
             <UpArrowIcon />
